@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input class="search__input" type="text"spellcheck="false" placeholder="Enter your city">
+            <button class="search__button">
+                <img src="images/search.png" alt="">
+            </button>
+        </div>
+        <div class="weather">
+            <img src="images/clouds.png" class="weather__image">
+            <h1 class="weather__temp">14°c</h1>
+            <h2 class="weather__city">Kyiv</h2>
+            <div class="details">
+                <div class="details__col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">53%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="details__col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">5.56 km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="error">
+            <p>City not found</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
